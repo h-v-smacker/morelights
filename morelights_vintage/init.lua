@@ -5,9 +5,13 @@ local brass_ingot_name
 if minetest.get_modpath("technic") and technic.mod and technic.mod == "linuxforks" then
   -- Use standard technic ingot
   brass_ingot_name = "technic:brass_ingot"
+  -- convert the existing old-fashion ingots
+  minetest.register_alias("morelights_vintage:brass_ingot", brass_ingot_name)
 elseif minetest.get_modpath("basic_materials") then
   -- Use basic materials brass ingot
   brass_ingot_name = "basic_materials:brass_ingot"
+  -- convert the existing old-fashion ingots
+  minetest.register_alias("morelights_vintage:brass_ingot", brass_ingot_name)
 else
   -- Register and use morelights brass ingot
   minetest.register_craftitem("morelights_vintage:brass_ingot", {
