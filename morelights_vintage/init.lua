@@ -220,6 +220,7 @@ minetest.register_node("morelights_vintage:oillamp", {
     fixed = {-1/8, -1/2, -1/8, 1/8, 1/4, 1/8}
   },
   paramtype = "light",
+  use_texture_alpha = "blend",
   light_source = 8,
   groups = {cracky = 2, oddly_breakable_by_hand = 3},
   sounds = default.node_sound_glass_defaults(),
@@ -240,6 +241,7 @@ minetest.register_node("morelights_vintage:chandelier", {
     fixed = {-3/8, -1/2, -3/8, 3/8, 1/2, 3/8}
   },
   paramtype = "light",
+  use_texture_alpha = "blend",
   light_source = 10,
   groups = {cracky = 2, oddly_breakable_by_hand = 3},
   sounds = default.node_sound_glass_defaults(),
