@@ -177,7 +177,7 @@ morelights.register_variants({
 local a = morelights.craft_items
 
 minetest.register_craft({
-    output = "morelights:bulb",
+    output = "morelights:bulb 6",
     recipe = {
         {"", a.glass, ""},
         {"", a.copper, ""},
