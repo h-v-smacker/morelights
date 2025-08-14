@@ -1,4 +1,0 @@
-default
-morelights
-stairs?
-ethereal?
